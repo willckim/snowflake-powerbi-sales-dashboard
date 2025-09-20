@@ -1,0 +1,6 @@
+CUSTOMER_ID,NAME,EMAIL,LOCATION,SIGNUP_DATE
+1,Alice,alice@example.com,Chicago,2024-01-01
+2,Bob,bob@example.com,Dallas,2024-02-15
+3,Charlie,charlie@example.com,New York,2024-03-10
+4,Diana,diana@example.com,San Francisco,2024-03-22
+5,Eric,eric@example.com,Miami,2024-04-05
