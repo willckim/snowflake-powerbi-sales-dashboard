@@ -1,1 +1,0 @@
-# snowflake-powerbi-sales-dashboard
