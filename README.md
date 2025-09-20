@@ -30,9 +30,6 @@ snowflake-powerbi-analytics/
 │ ├── 06-kpi-cards.png
 │ └── 07-dashboard.png
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Workflow
