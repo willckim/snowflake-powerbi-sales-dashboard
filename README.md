@@ -28,68 +28,71 @@ snowflake-powerbi-analytics/
         ├── 05-top-products.png
         ├── 06-kpi-cards.png
         └── 07-dashboard.png
+🚀 Workflow
+1. Data Preparation (SQL in Snowflake)
+01_create_tables.sql → Creates Snowflake tables (customers, products, orders, order_items).
 
----
+02_load_data.sql → Loads the CSV files into Snowflake tables.
 
-## 🚀 Workflow
+03_create_view.sql → Builds an aggregated analytics view for reporting.
 
-### 1. Data Preparation (SQL in Snowflake)
-- **`01_create_tables.sql`** → Creates Snowflake tables (`customers`, `products`, `orders`, `order_items`).  
-- **`02_load_data.sql`** → Loads the CSV files into Snowflake tables.  
-- **`03_create_view.sql`** → Builds an aggregated analytics view for reporting.  
+2. Data Visualization (Power BI)
+Connect Power BI to the Snowflake view.
 
-### 2. Data Visualization (Power BI)
-- Connect Power BI to the Snowflake view.  
-- Build key metrics and visuals:  
-  - Total Sales  
-  - Total Orders  
-  - Average Order Value  
-  - Sales by Customer  
-  - Sales Trend (by Month)  
-  - Category Breakdown  
-  - Top Products  
-- Combine everything into a final dashboard.  
+Build key metrics and visuals:
 
----
+Total Sales
 
-## 📊 Dashboard Screenshots
+Total Orders
 
-### Data Preview
-![Data Preview](dashboard/screenshots/01-data-preview.png)
+Average Order Value
 
-### Sales by Customer
-![Sales by Customer](dashboard/screenshots/02-sales-by-customer.png)
+Sales by Customer
 
-### Sales Trend
-![Sales Trend](dashboard/screenshots/03-sales-trend.png)
+Sales Trend (by Month)
 
-### Category Breakdown
-![Category Breakdown](dashboard/screenshots/04-category-breakdown.png)
+Category Breakdown
 
-### Top Products
-![Top Products](dashboard/screenshots/05-top-products.png)
+Top Products
 
-### KPI Cards
-![KPI Cards](dashboard/screenshots/06-kpi-cards.png)
+Combine everything into a final dashboard.
 
-### Final Dashboard
-![Dashboard](dashboard/screenshots/07-dashboard.png)
+📊 Dashboard Screenshots
+Data Preview
 
----
 
-## ✅ Key Skills Demonstrated
-- **SQL & Data Modeling** in Snowflake  
-- **ETL pipeline**: loading raw CSVs into structured tables  
-- **Business Intelligence** with Power BI  
-- **Dashboard storytelling**: KPIs + trends + category/product breakdowns  
+Sales by Customer
 
----
 
-## 📌 Future Improvements
-- Add customer segmentation analysis  
-- Create automated refresh pipelines  
-- Explore time-series forecasting with Power BI  
+Sales Trend
 
----
 
-👨‍💻 Built by *William Kim* — showcasing SQL + BI integration.
+Category Breakdown
+
+
+Top Products
+
+
+KPI Cards
+
+
+Final Dashboard
+
+
+✅ Key Skills Demonstrated
+SQL & Data Modeling in Snowflake
+
+ETL pipeline: loading raw CSVs into structured tables
+
+Business Intelligence with Power BI
+
+Dashboard storytelling: KPIs + trends + category/product breakdowns
+
+📌 Future Improvements
+Add customer segmentation analysis
+
+Create automated refresh pipelines
+
+Explore time-series forecasting with Power BI
+
+👨‍💻 Built by William Kim — showcasing SQL + BI integration.
