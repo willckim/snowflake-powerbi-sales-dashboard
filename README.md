@@ -28,9 +28,7 @@ snowflake-powerbi-analytics/
         ├── 05-top-products.png
         ├── 06-kpi-cards.png
         └── 07-dashboard.png
-
-
----
+```
 
 ## 🚀 Workflow
 
