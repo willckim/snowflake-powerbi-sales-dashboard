@@ -7,28 +7,27 @@ It starts from raw CSV files → loads data into Snowflake with SQL scripts → 
 ---
 
 ## 📂 Project Structure
+
+```text
 snowflake-powerbi-analytics/
-│
-├── data/ # Raw CSV datasets
-│ ├── customers.csv
-│ ├── products.csv
-│ ├── orders.csv
-│ └── order_items.csv
-│
-├── sql/ # Snowflake SQL scripts
-│ ├── 01_create_tables.sql
-│ ├── 02_load_data.sql
-│ └── 03_create_view.sql
-│
-├── dashboard/ # Power BI screenshots
-│ └── screenshots/
-│ ├── 01-data-preview.png
-│ ├── 02-sales-by-customer.png
-│ ├── 03-sales-trend.png
-│ ├── 04-category-breakdown.png
-│ ├── 05-top-products.png
-│ ├── 06-kpi-cards.png
-│ └── 07-dashboard.png
+├── data/                # Raw CSV datasets
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── orders.csv
+│   └── order_items.csv
+├── sql/                 # Snowflake SQL scripts
+│   ├── 01_create_tables.sql
+│   ├── 02_load_data.sql
+│   └── 03_create_view.sql
+└── dashboard/           # Power BI screenshots
+    └── screenshots/
+        ├── 01-data-preview.png
+        ├── 02-sales-by-customer.png
+        ├── 03-sales-trend.png
+        ├── 04-category-breakdown.png
+        ├── 05-top-products.png
+        ├── 06-kpi-cards.png
+        └── 07-dashboard.png
 
 ---
 
